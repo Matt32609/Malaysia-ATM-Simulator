@@ -42,8 +42,8 @@ To use this simulator:
 To run the simulator:
 ----------------------------------------------------------------------------------
 
-- chmod +x atm\ simulator.py
-- ./atm\ simulator.py
+- chmod +x atm_simulator.py
+- ./atm_simulator.py
 
 Example of images:
 -----------------------------------------------------------------------------------
