@@ -37,8 +37,10 @@ To use this simulator:
 ----------------------------------------------------------------------------------
 - Default PIN number : 123456
 - Default balance : RM1000.00
+- Account number : 1234567890 
 
 (The balance and PIN can be changed throughout the session.)
+(All bank information are strictly fictional and it is not relevant with real life)
 
 To run the simulator:
 ----------------------------------------------------------------------------------
