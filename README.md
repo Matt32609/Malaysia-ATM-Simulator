@@ -19,7 +19,7 @@ Key features of the code:
 
 
 4. Graceful Error Handling:
-- Instead of letting the program crash with scary code errors , I used try-except blocks to catch mistakes and provide helpful, human-readable instructions on how to fix them.
+- Instead of letting the program crash with code errors , I used try-except blocks to catch mistakes and provide helpful, human-readable instructions on how to fix them.
 
 
 5. Currency denomination adjustments:
