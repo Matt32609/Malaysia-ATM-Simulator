@@ -136,6 +136,7 @@ def atm_menu():
             if akaun == nas:
                 print("Account number verified.")
             else:
+                print("Wrong account number.")
                 return
             dep = float(input("How much would you like to deposit? "))
             if dep > 0 and round(dep * 100) % 5 == 0:
