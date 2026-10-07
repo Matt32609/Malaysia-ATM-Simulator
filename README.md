@@ -32,7 +32,7 @@ Key features of the code:
 
 
 6. Smart Validation:
-- I implemented mathematical checks such as (round(oa * 100) % 5 == 0) to ensure users only interact with valid Malaysian currency denominations, preventing unrealistic transactions.
+- I implemented mathematical checks such as (round(oa * 100) % 5 == 0) / (fmod(oa * 100, 5.0) == 0.0) to ensure users only interact with valid Malaysian currency denominations, preventing unrealistic transactions.
 
 
 
@@ -41,7 +41,7 @@ Key features of the code:
 
 
 8. Strict PIN Validation:
-- I implemented dual-layer validation using .isdigit() and len() to ensure new PINs consist strictly of numbers and meet the 4-6 digit security standard, preventing system crashes and invalid data entries.
+- I implemented dual-layer validation using isdigit() and len() to ensure new PINs consist strictly of numbers and meet the 4-6 digit security standard, preventing system crashes and invalid data entries.
 
 
 9. Centralized Navigation Control:
@@ -65,9 +65,13 @@ To use this simulator:
 
 To run the simulator:
 ----------------------------------------------------------------------------------
-
+PYTHON
 - chmod +x atm_simulator.py
 - ./atm_simulator.py
+
+C
+- gcc atm.c -o atm
+- ./atm.exe
 
 Example of images:
 -----------------------------------------------------------------------------------
@@ -78,14 +82,6 @@ Example of images:
 
 
 
-What I learnt throughout the project:
-------------------------------------------------------------------------------
-- Handling user input and edge cases
 
-- Structuring Python applications logically
-
-- Implementing basic security features
-
-- Using dictionaries for cleaner code design
 
 
