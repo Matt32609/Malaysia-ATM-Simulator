@@ -1,7 +1,5 @@
 # Malaysia ATM Simulator
-A command-line ATM simulator built in Python that mimics real Malaysian banking interactions such as withdrawals, deposits, and PIN authentication.
-
-This project was created to strengthen my understanding of Python concepts including input validation, error handling, global variables, and clean program structure.
+A command-line ATM simulator built in Python and C that mimics real Malaysian banking interactions such as withdrawals, deposits, and PIN authentication.
 
 Key features of the code:
 ------------------------------------------------------------------------------------
